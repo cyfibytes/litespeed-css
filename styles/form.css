@@ -51,3 +51,8 @@ input[type=week] {
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 3px;
 }
+
+:root {
+  --space-1: 1rem;
+  --space-2: 2rem;
+}
