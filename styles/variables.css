@@ -1,0 +1,33 @@
+/* Variables*/
+
+:root {
+  --space-1:   0.5rem;
+  --space-2:   1rem;
+  --space-3:   2rem;
+  --space-4:   4rem;
+  
+  /* default colors */
+  --body-color:            #111;
+  --body-background-color: #fff;
+  
+  /* branding colors */
+  --primary-color: ;
+  --secondary-color: ;
+  --action-color: ;
+  --border-color: ;
+  
+  /* button colors */
+  
+  /* status colors */
+  --error-color: ;
+  --success-color: ;
+  
+  /* pre, code colors */
+  
+  
+
+  --rule-border-style: solid;
+  --rule-border-width: 1px;
+  --rule-border-color: rgba(0,0,0,.125);
+  --rule-border-radius: 3px;
+}
