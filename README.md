@@ -18,9 +18,3 @@
 - [ ] Tables
 - [ ] Text Fields
 - [ ] Tooltips
-
-### Inspiration
-- [BassCSS](http://basscss.com/)
-- [Tachyons](http://tachyons.io/)
-- [Semantic UI](https://semantic-ui.com/)
-- [Material Design Lite](https://getmdl.io/components/index.html)
