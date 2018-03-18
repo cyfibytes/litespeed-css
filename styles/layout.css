@@ -1,0 +1,11 @@
+/* Litespeed CSS Layout */
+
+.inline       { display: inline }
+.block        { display: block }
+.inline-block { display: inline-block }
+
+.overflow-hidden { overflow: hidden }
+.overflow-scroll { overflow: scroll }
+.overflow-auto   { overflow: auto }
+
+.fit { max-width: 100% }
