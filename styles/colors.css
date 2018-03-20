@@ -21,6 +21,12 @@ hr {
   border-bottom-color: var(--rule-border-color);
 }
 
+.is-warning  {}
+.is-error    {}
+.is-success  {}
+.is-disabled {}
+.is-readonly {}
+
 :root {
   /* default colors */
   --body-color:            #111;
@@ -36,8 +42,11 @@ hr {
   
   
   /* status colors */
+  --warning-color: ;
   --error-color: ;
   --success-color: ;
+  --disabled-color: ;
+  --readonly-color: ;
   
   /* pre, code colors */
   --pre-background-color: ;
