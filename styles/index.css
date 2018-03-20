@@ -34,13 +34,6 @@
   border-radius:    3px;
 }
 
-/* */
-.is-warning  {}
-.is-error    {}
-.is-success  {}
-.is-disabled {}
-.is-readonly {}
-
 /* Utility classes for borders */
 .border        {
   border-style: var(--rule-border-style);
@@ -79,19 +72,19 @@
 .rounded {
   border-radius: var(--rule-border-radius);
 }
-.rounded-top { 
-  border-top-left-radius: var(--rule-border-radius); 
+.rounded-top {
+  border-top-left-radius: var(--rule-border-radius);
   border-top-right-radius: var(--rule-border-radius);
-} 
-.rounded-right { 
+}
+.rounded-right {
   border-top-right-radius: var(--rule-border-radius);
   border-bottom-right-radius: var(--rule-border-radius);
 }
-.rounded-bottom { 
+.rounded-bottom {
   border-bottom-left-radius: var(--rule-border-radius);
   border-bottom-right-radius: var(--rule-border-radius);
 }
-.rounded-left { 
+.rounded-left {
   border-top-left-radius: var(--rule-border-radius);
   border-bottom-left-radius: var(--rule-border-radius);
 }
