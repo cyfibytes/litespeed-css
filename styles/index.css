@@ -1,5 +1,5 @@
-@import url("reset.css");
-@import url("typography.css");
+@import url("./reset.css");
+@import url("https://www.litespeed.io/styles/typography.css");
 @import url("type-scale.css");
 @import url("flexbox.css");
 @import url("variables.css");
