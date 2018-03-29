@@ -1,13 +1,13 @@
-@import url("reset.css");
-@import url("typography");
-@import url("type-scale");
-@import url("flexbox.css");
-@import url("variables.css");
-@import url("margin.css");
-@import url("padding.css");
-@import url("layout.css");
-@import url("hide.css");
-@import url("colors.css");
+@import url("styles/reset.css");
+@import url("styles/typography");
+@import url("styles/type-scale");
+@import url("styles/flexbox.css");
+@import url("styles/variables.css");
+@import url("styles/margin.css");
+@import url("styles/padding.css");
+@import url("styles/layout.css");
+@import url("styles/hide.css");
+@import url("styles/colors.css");
 
 /* button styles */
 .btn {
