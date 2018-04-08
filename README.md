@@ -1,8 +1,8 @@
 # Litespeed CSS
 
 ## To Do
-- [ ] Browser Reset
-- [ ] Typography
+- [x] Browser Reset
+- [x] Typography
 - [ ] Buttons
 - [ ] Badges
 - [ ] Cards
