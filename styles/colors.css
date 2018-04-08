@@ -5,8 +5,19 @@ body {
   background-color: var(--body-background-color);
 }
 
+h1, h2 {
+  padding-bottom: 0.3rem;
+  border-bottom-style: var(--rule-border-style);
+  border-bottom-width: var(--rule-border-width);
+  border-bottom-color: var(--rule-border-color);
+}
+
+h6, .h6 {
+  color: #6a737d;
+}
+
 a {
-  color: var(--link-color);
+  color: var(--action-color);
 }
 
 pre, code {
@@ -16,9 +27,34 @@ pre, code {
 
 hr {
   border: 0;
-  border-bottom-style: var(--rule-border-style);
-  border-bottom-width: var(--rule-border-width);
-  border-bottom-color: var(--rule-border-color);
+  height: .25rem;
+  background-color: #e1e4e8;
+}
+
+/* button styles */
+.btn {
+  text-decoration:    none;
+  font-family:        inherit;
+  font-size:          .875rem;
+  font-weight:        700;
+  font-weight:        500;
+  cursor:             pointer;
+  display:            inline-block;
+  line-height:        1.125rem;
+  padding:            var(--space-1) var(--space-2);
+  margin:             0;
+  height:             auto;
+  border:             1px solid transparent;
+  vertical-align:     middle;
+  -webkit-appearance: none;
+  color:              inherit;
+  background-color:   transparent;
+}
+
+.btn-primary {
+  color: var(--btn-color);
+  background-color: var(--action-color);
+  border-radius: 3px;
 }
 
 .is-warning  {}
@@ -28,18 +64,19 @@ hr {
 .is-readonly {}
 
 :root {
-  /* default colors */
-  --body-color:            #111;
+  --body-color:            #24292E;
   --body-background-color: #fff;
   
   /* branding colors */
   --primary-color: ;
   --secondary-color: ;
-  --action-color: ;
+  --action-color: #07c;
   --border-color: ;
   
   /* button colors */
-  
+  --space-1: ;
+  --space-2: ;
+  --btn-color: #fff;
   
   /* status colors */
   --warning-color: ;
@@ -49,6 +86,10 @@ hr {
   --readonly-color: ;
   
   /* pre, code colors */
-  --pre-background-color: ;
-  --pre-border-radius: ;
+  --pre-background-color: #f6f8fa;
+  --pre-border-radius: 3px;
+  
+  --rule-border-style: solid;
+  --rule-border-width: 1px;
+  --rule-border-color: #eaecef;
 }
