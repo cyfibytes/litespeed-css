@@ -1,91 +1,12 @@
 @import url("reset.css");
-@import url("typography.css");
-@import url("type-scale.css");
+@import url("colors.css");
 @import url("flexbox.css");
-@import url("variables.css");
+@import url("form.css");
+@import url("hide.css");
+@import url("layout.css");
 @import url("margin.css");
 @import url("padding.css");
-@import url("layout.css");
-@import url("hide.css");
-@import url("colors.css");
-
-/* button styles */
-.btn {
-  text-decoration:    none;
-  font-family:        inherit;
-  font-size:          0.875rem;
-  font-weight:        700;
-  font-weight:        500;
-  cursor:             pointer;
-  display:            inline-block;
-  line-height:        1.125rem;
-  padding:            var(--space-1) var(--space-2);
-  margin:             0;
-  height:             auto;
-  border:             1px solid transparent;
-  vertical-align:     middle;
-  -webkit-appearance: none;
-  color:              inherit;
-  background-color:   transparent;
-}
-
-.btn-primary {
-  color:            #fff;
-  background-color: #0074d9;
-  border-radius:    3px;
-}
-
-/* Utility classes for borders */
-.border        {
-  border-style: var(--rule-border-style);
-  border-width: var(--rule-border-width);
-  border-color: var(--rule-border-color);
-}
-.border-top    {
-  border-top-style: var(--rule-border-style);
-  border-top-width: var(--rule-border-width);
-  border-top-color: var(--rule-border-color);
-}
-.border-right  {
-  border-right-style: var(--rule-border-style);
-  border-right-width: var(--rule-border-width);
-  border-right-color: var(--rule-border-color);
-}
-.border-bottom {
-  border-bottom-style: var(--rule-border-style);
-  border-bottom-width: var(--rule-border-width);
-  border-bottom-color: var(--rule-border-color);
-}
-.border-left   {
-  border-left-style: var(--rule-border-style);
-  border-left-width: var(--rule-border-width);
-  border-left-color: var(--rule-border-color);
-}
-
-.border-none {
-  border: 0;
-}
-
-/* border radius utility classes */
-.circle {
-  border-radius: 50%;
-}
-.rounded {
-  border-radius: var(--rule-border-radius);
-}
-.rounded-top {
-  border-top-left-radius: var(--rule-border-radius);
-  border-top-right-radius: var(--rule-border-radius);
-}
-.rounded-right {
-  border-top-right-radius: var(--rule-border-radius);
-  border-bottom-right-radius: var(--rule-border-radius);
-}
-.rounded-bottom {
-  border-bottom-left-radius: var(--rule-border-radius);
-  border-bottom-right-radius: var(--rule-border-radius);
-}
-.rounded-left {
-  border-top-left-radius: var(--rule-border-radius);
-  border-bottom-left-radius: var(--rule-border-radius);
-}
+@import url("type-scale.css");
+@import url("typography.css");
+@import url("variables.css");
+@import url("utility.css");
