@@ -13,7 +13,7 @@
 .list-style-none { list-style: none }
 .underline { text-decoration: underline }
 
-:root {
+html {
   --caps-letter-spacing: .2em;
   --bold-font-weight: bold;
 }
