@@ -55,4 +55,4 @@ Jason Niebauer
 - https://github.com/jasonniebauer
 
 ## License
-Litespeed is licensed under the MIT License.
+Litespeed is licensed under the [MIT License](http://opensource.org/licenses/MIT).
