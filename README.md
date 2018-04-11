@@ -21,12 +21,21 @@ Build web apps faster.
 
 ```
 litespeed/
-├── css/
+├── dist/
 │   ├── litespeed.css
-│   ├── litespeed.min.css
-└── js/
-    ├── litespeed.js
-    └── litespeed.min.js
+│   └── litespeed.min.css
+└── css/
+    ├── colors.css
+    ├── flexbox.css
+    ├── form.css
+    ├── hide.css
+    ├── index.css
+    ├── layout.css
+    ├── margin.css
+    ├── padding.css
+    ├── reset.css
+    ├── type-scale.css
+    └── typography.css
 ```
 
 
@@ -41,5 +50,9 @@ litespeed/
 ## Versioning
 
 ## Maintainers
+Jason Niebauer
+- https://twitter.com/jasonniebauer
+- https://github.com/jasonniebauer
 
 ## License
+Litespeed is licensed under the MIT License.
