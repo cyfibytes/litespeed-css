@@ -26,7 +26,6 @@ litespeed/
 │   └── litespeed.min.css
 └── css/
     ├── colors.css
-    ├── form.css
     ├── index.css
     ├── layout.css
     ├── margin.css
