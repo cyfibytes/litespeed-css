@@ -32,7 +32,6 @@ litespeed/
     ├── margin.css
     ├── padding.css
     ├── reset.css
-    ├── type-scale.css
     └── typography.css
 ```
 
