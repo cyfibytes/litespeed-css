@@ -109,7 +109,7 @@ hr {
 .is-disabled {}
 .is-readonly {}
 
-:root {
+html {
   --body-color:            #24292E;
   --body-background-color: #fff;
   
@@ -139,4 +139,9 @@ hr {
   --rule-border-width: 1px;
   --rule-border-color: #eaecef;
   --rule-border-radius: 3px;
+  
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
 }
