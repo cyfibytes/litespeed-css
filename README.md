@@ -28,9 +28,8 @@ litespeed/
     ├── colors.css
     ├── index.css
     ├── layout.css
-    ├── margin.css
-    ├── padding.css
     ├── reset.css
+    ├── space.css
     └── typography.css
 ```
 
