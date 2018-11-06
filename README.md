@@ -46,9 +46,6 @@ litespeed/
 ## Versioning
 
 ## Maintainers
-Jason Niebauer
-- https://twitter.com/jasonniebauer
-- https://github.com/jasonniebauer
 
 ## License
 Litespeed is licensed under the [MIT License](http://opensource.org/licenses/MIT).
