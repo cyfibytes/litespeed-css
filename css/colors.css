@@ -24,6 +24,21 @@ hr {
   background-color: #e1e4e8;
 }
 
+/* table styles */
+tr {
+  border-top: 1px solid #444;
+}
+
+th {
+  border: 1px solid #444;
+  padding: 6px 13px;
+}
+
+td {
+  border: 1px solid #444;
+  padding: 6px 13px;
+}
+
 /* button styles */
 .btn {
   text-decoration:    none;
