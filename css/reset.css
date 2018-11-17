@@ -114,6 +114,15 @@ hr {
   padding: 0;
 }
 
+table {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: var(--space-1);
+}
+
 .input, .select, .textarea { height: 2.5rem; }
 
 .input {
