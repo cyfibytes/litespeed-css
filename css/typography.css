@@ -1,7 +1,7 @@
 /* Litespeed CSS Typography */
 
 .bold    { font-weight: var(--bold-font-weight, bold) }
-.regular { font-weight: normal }
+.normal { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
 
