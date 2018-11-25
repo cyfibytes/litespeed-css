@@ -6,7 +6,7 @@ body {
 }
 
 h6, .h6 {
-  color: #6a737d;
+  color: #606770;
 }
 
 a {
@@ -160,13 +160,13 @@ button[type=button]{
 .is-readonly {}
 
 html {
-  --body-color:            #24292E;
+  --body-color:            #1C1E21;
   --body-background-color: #fff;
   
   /* branding colors */
   --primary-color: ;
   --secondary-color: ;
-  --action-color: #07c;
+  --action-color: #3578e5;
   --border-color: ;
   
   /* button colors */
@@ -182,7 +182,7 @@ html {
   --readonly-color: ;
   
   /* pre, code colors */
-  --pre-background-color: #f6f8fa;
+  --pre-background-color: #f2f2f2;
   --pre-border-radius: 3px;
   
   --rule-border-style: solid;
