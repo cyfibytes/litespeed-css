@@ -73,7 +73,7 @@ code {
 }
 
 pre {
-  overflow: scroll;
+  overflow: auto;
   padding: 16px;
   font-size: 85%;
   line-height: 1.45;
