@@ -123,6 +123,10 @@ table {
   margin-bottom: var(--space-1);
 }
 
+thead {
+  font-weight: 700
+}
+
 .input, .select, .textarea { height: 2.5rem; }
 
 .input {
@@ -146,6 +150,15 @@ fieldset, input, select, textarea {
   box-sizing:   border-box;
   margin-top:   0;
   margin-bottom: 0;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-weight: 700;
 }
 
 input[type=date],
