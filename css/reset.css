@@ -127,23 +127,6 @@ thead {
   font-weight: 700
 }
 
-.input, .select, .textarea { height: 2.5rem; }
-
-.input {
-  font-family:   inherit;
-  font-size:     inherit;
-  display:       block;
-  width:         100%;
-  padding:       var(--space-1);
-  margin-bottom: var(--space-2);
-  border:        1px solid #ccc;
-}
-
-.input {
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: 3px;
-}
-
 fieldset, input, select, textarea {
   font-family:  inherit;
   font-size:    1rem;
@@ -154,11 +137,16 @@ fieldset, input, select, textarea {
 
 fieldset {
   border: none;
+  margin: 0;
   padding: 0;
 }
 
 legend {
+  font-size: var(--h3);
   font-weight: 700;
+  line-height: 1.25;
+  padding: 0;
+  margin-bottom: 1rem;
 }
 
 input[type=date],
@@ -186,9 +174,19 @@ select {
   vertical-align: middle;
 }
 
-.label { vertical-align: middle; }
+textarea {
+  padding: 0.5rem;
+}
+
+label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  vertical-align: middle; 
+}
 
 .field {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
 }
@@ -227,6 +225,12 @@ html {
   }
   p {
     font-size: 1.125rem;
+  }
+  legend {
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 0.9375rem;
   }
 }
 
