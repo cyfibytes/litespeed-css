@@ -19,6 +19,7 @@
 .overflow-auto   { overflow: auto }
 
 .fit { max-width: 100% }
+.fill { width: 100%; }
 
 .flex {
   display: -webkit-box;
