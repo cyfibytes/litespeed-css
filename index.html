@@ -319,12 +319,72 @@
         </div>
         <pre class="m-0">
 <code><span><</span>form<span>></span>
-  <span><</span>label class="bold"<span>></span>
-    Name
-    <span><</span>span class="normal"<span>></span>(optional)<span><</span>/span<span>></span>
-  <span><</span>/label<span>></span>
-  <span><</span>input type="text" class="block field"<span>/></span>
-  <span><</span>small class=""<span>></span>Helper text for the form control.<span><</span>/small<span>></span>
+  <span><</span>legend<span>></span>Personal<span><</span>/legend<span>></span>
+  <span><</span>fieldset class="mb-3"<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>Name<span><</span>/label<span>></span>
+      <span><</span>input type="text" class="field block" placeholder="John Doe"<span>></span>
+    <span><</span>/div<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label class="block"<span>></span>
+        Date of Birth
+        <span><</span>span class="normal" style="color:#8d949e;"<span>></span>(optional)<span><</span>/span<span>></span>
+      <span><</span>/label<span>></span>
+      <span><</span>select class="field mb-0"<span>></span>
+        <span><</span>option<span>></span>Month<span><</span>/option<span>></span>
+      <span><</span>/select<span>></span>
+      <span><</span>select class="field mb-0"<span>></span>
+        <span><</span>option<span>></span>Day<span><</span>/option<span>></span>
+      <span><</span>/select<span>></span>
+      <span><</span>select class="field mb-0"<span>></span>
+        <span><</span>option<span>></span>Year<span><</span>/option<span>></span>
+      <span><</span>/select<span>></span>
+    <span><</span>/div<span>></span>
+  <span><</span>/fieldset<span>></span>
+  <span><</span>legend<span>></span>Account<span><</span>/legend<span>></span>
+  <span><</span>fieldset class="mb-3"<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>Email<span><</span>/label<span>></span>
+      <span><</span>input type="email" class="field block" placeholder="john@johndoe.com"<span>></span>
+    <span><</span>/div<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>Password<span><</span>/label<span>></span>
+      <span><</span>input type="password" class="field block"<span>></span>
+    <span><</span>/div<span>></span>
+  <span><</span>/fieldset<span>></span>
+  <span><</span>legend<span>></span>Contact<span><</span>/legend<span>></span>
+  <span><</span>fieldset class="mb-3"<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>Address<span><</span>/label<span>></span>
+      <span><</span>input type="text" class="field block" placeholder="938 Jackson St."<span>></span>
+    <span><</span>/div<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>City<span><</span>/label<span>></span>
+      <span><</span>input type="text" class="field block" placeholder="Jackson"<span>></span>
+    <span><</span>/div<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>State<span><</span>/label<span>></span>
+      <span><</span>select class="field block"<span>></span>
+        <span><</span>option value=""<span>></span>- Select your state -<span><</span>/option<span>></span>
+      <span><</span>/select<span>></span>
+    <span><</span>/div<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>Phone<span><</span>/label<span>></span>
+      <span><</span>input type="text" class="field block" placeholder="837-383-3678"<span>></span>
+    <span><</span>/div<span>></span>
+    <span><</span>div class="mb-2"<span>></span>
+      <span><</span>label<span>></span>
+        Comments
+        <span><</span>span class="normal" style="color:#8d949e;">(optional)<span><</span>/span<span>></span>
+      <span><</span>/label<span>></span>
+      <span><</span>textarea class="field block" name="comment"<span>></span><span><</span>/textarea<span>></span>
+      <span><</span>small style="color:#8d949e;"<span>></span>
+        Helper text for a form field. Can use this text to 
+        <span><</span>a class="underline" href="#"<span>></span>link to more info.<span><</span>/a<span>></span>
+      <span><</span>/small<span>></span>
+    <span><</span>/div<span>></span>
+  <span><</span>/fieldset<span>></span>
+  <span><</span>button type="submit" class="btn btn-primary"<span>></span>Sign Up<span><</span>/button<span>></span>
 <span><</span>/form<span>></span></code></pre>
         <h3>Checkboxes</h3>
         <div class="border p-2 rounded-top">
