@@ -15,7 +15,10 @@ a {
 
 pre, code {
   background-color: var(--pre-background-color);
-  border-radius: var(--pre-border-radius);
+}
+
+code {
+  border-radius: var(--code-border-radius);
 }
 
 hr {
@@ -194,12 +197,12 @@ html {
   
   /* pre, code colors */
   --pre-background-color: #f2f2f2;
-  --pre-border-radius: 3px;
+  --code-border-radius: 3px;
   
   --rule-border-style: solid;
   --rule-border-width: 1px;
   --rule-border-color: #f2f2f2;
-  --rule-border-radius: 3px;
+  --rule-border-radius: 5px;
   
   --space-1: .5rem;
   --space-2: 1rem;
