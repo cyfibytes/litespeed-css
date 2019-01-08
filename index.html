@@ -40,13 +40,13 @@
     <div class="mx-auto py-4" style="max-width: 740px;padding-left: 20px;padding-right: 20px;">
       <section id="headings" class="mb-4">
         <h2>Headings</h2>
-        <div class="border px-2 rounded-top">
-          <h1>H1</h1>
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
+          <h1 class="mt-0">H1</h1>
           <h2>H2</h2>
           <h3>H3</h3>
           <h4>H4</h4>
           <h5>H5</h5>
-          <h6>H6</h6>
+          <h6 class="mb-0">H6</h6>
         </div>
 <pre class="m-0" style="border-radius:0 0 3px 3px;">
 <span><</span>h1<span>></span>H1<span><</span>/h1<span>></span>
@@ -59,13 +59,13 @@
       </section>
       <section id="typeScale" class="mb-4">
         <h2>Type Scale</h2>
-        <div class="border px-2 rounded-top">
-          <p class="h1">Heading 1</p>
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
+          <p class="h1 mt-0">Heading 1</p>
           <p class="h2">Heading 2</p>
           <p class="h3">Heading 3</p>
           <p class="h4">Heading 4</p>
           <p class="h5">Heading 5</p>
-          <p class="h6">Heading 6</p>
+          <p class="h6 mb-0">Heading 6</p>
         </div>
 <pre class="m-0" style="border-radius:0 0 3px 3px;">
 <span><</span>p class="h1"<span>></span>Heading 1<span><</span>/p<span>></span>
@@ -78,14 +78,14 @@
       </section>
       <section id="typography" class="mb-4">
         <h2>Typography</h2>
-        <div class="border px-2 rounded-top">
-          <p class="bold">Bold</p>
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
+          <p class="bold mt-0">Bold</p>
           <p class="normal">Normal</p>
           <p class="italic">Italic</p>
           <p class="caps">Caps</p>
           <p class="left-align">Left align</p>
           <p class="center">Center</p>
-          <p class="right-align">Right align</p>
+          <p class="right-align mb-0">Right align</p>
         </div>
 <pre class="m-0" style="border-radius:0 0 3px 3px;">
 <span><</span>p class="bold"<span>></span>Bold<span><</span>/p<span>></span>
@@ -100,7 +100,7 @@
       <section id="buttons" class="mb-4">
         <h2>Buttons</h2>
         <h3>Default</h3>
-        <div class="border p-2 rounded-top">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <button>Button</button>
           <button class="btn">Button</button>
         </div>
@@ -109,7 +109,7 @@
 <span><</span>button class="btn"<span>></span>Button<span><</span>/button<span>></span>
 </pre>
         <h3>Color</h3>
-        <div class="border p-2 rounded-top">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <button class="btn btn-primary">Primary</button>
           <button class="btn btn-outline">Outline</button>
           <button class="btn btn-default">Default</button>
@@ -120,7 +120,7 @@
 <span><</span>button class="btn btn-default"<span>></span>Default<span><</span>/button<span>></span>
 </pre>
         <h3>Size</h3>
-        <div class="border p-2 rounded-top">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <button class="btn btn-default btn-lg">Large</button>
           <button class="btn btn-default">Normal</button>
           <button class="btn btn-default btn-sm">Small</button>
@@ -136,7 +136,7 @@
           <button class="btn btn-primary">Loading</button>
         </div> -->
         <h3>Links</h3>
-        <div class="border p-2 rounded-top">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <a href="#!">Default</a>
           <a href="#!" class="underline">Underline</a>
           <a href="#!" class="btn btn-primary">Link Button</a>
@@ -150,7 +150,7 @@
       <section id="forms" class="mb-4">
         <h2>Forms</h2>
         <h3>Fields</h3>
-        <div class="border p-2" style="border-width:.2rem;">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <form>
             <legend>Personal</legend>
             <fieldset class="mb-3">
@@ -331,11 +331,11 @@
   <span><</span>legend<span>></span>Personal<span><</span>/legend<span>></span>
   <span><</span>fieldset class="mb-3"<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>Name<span><</span>/label<span>></span>
+      <span><</span>label class="field-label"<span>></span>Name<span><</span>/label<span>></span>
       <span><</span>input type="text" class="field block" placeholder="John Doe"<span>></span>
     <span><</span>/div<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label class="block"<span>></span>
+      <span><</span>label class="block field-label"<span>></span>
         Date of Birth
         <span><</span>span class="normal" style="color:#8d949e;"<span>></span>(optional)<span><</span>/span<span>></span>
       <span><</span>/label<span>></span>
@@ -353,36 +353,36 @@
   <span><</span>legend<span>></span>Account<span><</span>/legend<span>></span>
   <span><</span>fieldset class="mb-3"<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>Email<span><</span>/label<span>></span>
+      <span><</span>label class="field-label"<span>></span>Email<span><</span>/label<span>></span>
       <span><</span>input type="email" class="field block" placeholder="john@johndoe.com"<span>></span>
     <span><</span>/div<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>Password<span><</span>/label<span>></span>
+      <span><</span>label class="field-label"<span>></span>Password<span><</span>/label<span>></span>
       <span><</span>input type="password" class="field block"<span>></span>
     <span><</span>/div<span>></span>
   <span><</span>/fieldset<span>></span>
   <span><</span>legend<span>></span>Contact<span><</span>/legend<span>></span>
   <span><</span>fieldset class="mb-3"<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>Address<span><</span>/label<span>></span>
+      <span><</span>label class="field-label"<span>></span>Address<span><</span>/label<span>></span>
       <span><</span>input type="text" class="field block" placeholder="938 Jackson St."<span>></span>
     <span><</span>/div<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>City<span><</span>/label<span>></span>
+      <span><</span>label class="field-label"<span>></span>City<span><</span>/label<span>></span>
       <span><</span>input type="text" class="field block" placeholder="Jackson"<span>></span>
     <span><</span>/div<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>State<span><</span>/label<span>></span>
+      <span><</span>label class="field-label"<span>></span>State<span><</span>/label<span>></span>
       <span><</span>select class="field block"<span>></span>
         <span><</span>option value=""<span>></span>- Select your state -<span><</span>/option<span>></span>
       <span><</span>/select<span>></span>
     <span><</span>/div<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>Phone<span><</span>/label<span>></span>
+      <span><</span>label class="field-label"<span>></span>Phone<span><</span>/label<span>></span>
       <span><</span>input type="text" class="field block" placeholder="837-383-3678"<span>></span>
     <span><</span>/div<span>></span>
     <span><</span>div class="mb-2"<span>></span>
-      <span><</span>label<span>></span>
+      <span><</span>label class="field-label"<span>></span>
         Comments
         <span><</span>span class="normal" style="color:#8d949e;">(optional)<span><</span>/span<span>></span>
       <span><</span>/label<span>></span>
@@ -397,7 +397,7 @@
 <span><</span>/form<span>></span>
 </pre>
         <h3>Checkboxes</h3>
-        <div class="border p-2 rounded-top">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <form>
             <fieldset id="favorite_colors">
               <legend>Favorite Colors</legend>
@@ -476,7 +476,7 @@
 <span><</span>/form<span>></span>
 </pre>
         <h3>Radio Buttons</h3>
-        <div class="border p-2 rounded-top">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <form>
             <fieldset id="operating_system">
               <legend>Operating System</legend>
@@ -525,15 +525,15 @@
       </section>
       <section id="code" class="mb-4">
         <h2>Code & Syntax Highlighting</h2>
-        <div class="border px-2 rounded-top">
-          <p>Run the function <code>saveAll()</code> and continue working.</p>
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
+          <p class="m-0">Run the function <code>saveAll()</code> and continue working.</p>
         </div>
 <pre class="m-0" style="border-radius:0 0 3px 3px;">
 <span><</span>p<span>></span>Run the function <span><</span>code<span>></span>saveAll()<span><</span>/code<span>></span> and continue working.<span><</span>/p<span>></span>
 </pre>
         <h3>Preformatted Text</h3>
-        <div class="border px-2 rounded-top">
-<pre class="p-0" style="background:white;">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
+<pre class="m-0 p-0" style="background:white;">
 Pre
     formatt
             ed
@@ -549,7 +549,7 @@ Pre
       </section>
       <section id="table" class="mb-4">
         <h2>Tables</h2>
-        <div class="border p-2 rounded-top">
+        <div class="border-top border-left border-right rounded-top p-2" style="border-width:.2rem;">
           <table class="mb-0">
             <thead>
               <tr> 
@@ -592,8 +592,8 @@ Pre
       </section>
       <section id="lists" class="mb-4">
         <h2>Lists</h2>
-        <div class="border rounded-top">
-          <ul>
+        <div class="border-top border-left border-right rounded-top py-2" style="border-width:.2rem;">
+          <ul class="m-0">
             <li>Burger</li>
             <li>Fries</li>
             <li>Shake</li>
