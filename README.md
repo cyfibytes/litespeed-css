@@ -1,4 +1,4 @@
-# [Litespeed](https://www.litespeed.io)
+# [Litespeed CSS](https://www.litespeed.io)
 <!-- 
 [![GitHub Release](https://img.shields.io/github/release/twbs/ratchet.svg)](https://github.com/twbs/ratchet/releases)
 [![Build Status](https://img.shields.io/travis/twbs/ratchet/master.svg)](https://travis-ci.org/twbs/ratchet)
@@ -46,6 +46,7 @@ litespeed/
 ## Versioning
 
 ## Maintainers
+* [Jason Niebauer](https://github.com/jasonniebauer)
 
 ## License
 Litespeed is licensed under the [MIT License](http://opensource.org/licenses/MIT).
