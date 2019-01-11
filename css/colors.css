@@ -209,7 +209,7 @@ html {
   
   /* pre, code colors */
   --pre-background-color: #f2f2f2;
-  --code-border-radius: 3px;
+  --code-border-radius: 2px;
   
   --rule-border-style: solid;
   --rule-border-width: 1px;
