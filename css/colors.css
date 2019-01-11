@@ -114,6 +114,18 @@ button[type=button]{
   line-height: 20px;
 }
 
+.round {
+  border-radius: 36px;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.wide {
+  width: 100%;
+}
+
 .border        {
   border-style:        var(--rule-border-style);
   border-width:        var(--rule-border-width);
