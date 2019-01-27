@@ -52,6 +52,14 @@ p, dl, ol, ul, pre, blockquote {
   margin-bottom: 1rem;
 }
 
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-position: inside;
+}
+
 code,
 pre {
   font-family:
