@@ -185,7 +185,7 @@ button[type=button]{
 .is-disabled {}
 .is-readonly {}
 
-html {
+:root {
   --body-color:            #1C1E21;
   --body-background-color: #fff;
   
