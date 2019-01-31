@@ -4,6 +4,7 @@
 .normal { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+.title { text-transform: capitalize }
 
 .left-align   { text-align: left    }
 .center       { text-align: center  }
