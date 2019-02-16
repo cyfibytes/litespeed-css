@@ -1,6 +1,6 @@
-/* Litespeed CSS */
+/* Litespeed CSS imports */
 
-@import url("reset.css");
+@import url("css-reset/reset.css");
 @import url("colors.css");
 @import url("layout.css");
 @import url("space.css");
