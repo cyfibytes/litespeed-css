@@ -62,14 +62,7 @@ ul li {
 
 code,
 pre {
-  font-family:
-    'Roboto Mono',
-    'Source Code Pro',
-    Menlo,
-    Consolas,
-    'Liberation Mono',
-    monospace;
-  font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  font-family: Consolas, Menlo, Courier, monospace;
 }
 
 code {
