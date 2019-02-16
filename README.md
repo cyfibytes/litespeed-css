@@ -7,43 +7,12 @@ Build systems fast with small, independent declarations of functionality focused
 
 ## Table of contents
 
-* [Getting started](#getting-started)
-* [Documentation](#documentation)
-* [Support](#support)
-* [Contributing](#contributing)
-* [Troubleshooting](#troubleshooting)
-* [Versioning](#verisioning)
+* [Getting started](#technology)
 * [Maintainers](#maintainers)
 * [License](#license)
 
-## Getting Started
-
-### What's included
-
-```
-litespeed/
-├── dist/
-│   ├── litespeed.css
-│   └── litespeed.min.css
-└── css/
-    ├── colors.css
-    ├── index.css
-    ├── layout.css
-    ├── reset.css
-    ├── space.css
-    └── typography.css
-```
-
-
-## Documentation
-
-## Support
-
-## Contributing
-
-## Troubleshooting
-
-## Versioning
+## Technology
+* [CSS Reset](https://github.com/JasonNiebauer/CSS-Reset)
 
 ## Maintainers
 * [Jason Niebauer](https://github.com/jasonniebauer)
