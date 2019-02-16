@@ -156,6 +156,12 @@ legend {
   margin-bottom: 1rem;
 }
 
+label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
 input[type=date],
 input[type=datetime-local],
 input[type=datetime],
@@ -192,11 +198,11 @@ textarea {
   padding: 0.5rem;
 }
 
-.field-label {
+/* .field-label {
   font-size: 0.875rem;
   font-weight: 700;
   vertical-align: middle;
-}
+} */
 
 .field {
   margin-top: 0.5rem;
@@ -247,7 +253,3 @@ html {
     font-size: 0.9375rem;
   }
 }
-
-@custom-media --breakpoint-sm (min-width: 40em);
-@custom-media --breakpoint-md (min-width: 52em);
-@custom-media --breakpoint-lg (min-width: 64em);
