@@ -1,156 +1,158 @@
-/* Litespeed CSS Reset */
+/*
+    CSS Reset v0.0.0
+    Copyright (c) 2019 Jason Niebauer
+    GitHub: https://github.com/JasonNiebauer/CSS-Reset
+    License: http://www.opensource.org/licenses/mit-license.php
+*/
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: system-ui,sans-serif;
-  line-height: 1.5;
-  margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    margin: 0;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 svg {
-  max-height: 100%;
+    max-height: 100%;
 }
 
 a {
-  text-decoration: none;
-}
-
-a:not(.btn):hover {
-  text-decoration: underline;
+    text-decoration: none;
 }
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 16px;
-  margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-2);
 }
 
-h1, .h1 { font-size: var(--h1) }
-h2, .h2 { font-size: var(--h2) }
-h3, .h3 { font-size: var(--h3) }
-h4, .h4 { font-size: var(--h4) }
-h5, .h5 { font-size: var(--h5) }
-h6, .h6 { font-size: var(--h6) }
+h1, .h1 { font-size: var(--h1); }
+h2, .h2 { font-size: var(--h2); }
+h3, .h3 { font-size: var(--h3); }
+h4, .h4 { font-size: var(--h4); }
+h5, .h5 { font-size: var(--h5); }
+h6, .h6 { font-size: var(--h6); }
 
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
-  line-height: 1.25;
+    line-height: 1.25;
 }
 
 p, dl, ol, ul, pre, blockquote {
-  margin-top:    1rem;
-  margin-bottom: 1rem;
+    font-size: var(--p);
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-2);
 }
 
 ul {
-  padding: 0;
+    padding: 0;
 }
 
 ul li {
-  list-style-position: inside;
+    list-style-position: inside;
 }
 
 code,
 pre {
-  font-family: Consolas, Menlo, Courier, monospace;
+    font-family: Consolas, Menlo, Courier, monospace;
 }
 
 code {
-  padding: 0.2rem 0.4rem;
-  margin: 0;
-  font-size: 85%;
+    padding: 0.2rem 0.4rem;
+    margin: 0;
+    font-size: 85%;
 }
 
 pre {
-  overflow: auto;
-  padding: 1rem;
-  font-size: 85%;
-  line-height: 1.45;
-  word-wrap: normal;
+    overflow: auto;
+    padding: var(--space-2);
+    font-size: 85%;
+    line-height: 1.45;
+    word-wrap: normal;
 }
 
 pre::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 pre > code {
-  display: inline;
-  max-width: auto;
-  padding: 0;
-  margin: 0;
-  overflow: visible;
-  line-height: inherit;
-  word-wrap: normal;
-  background-color: transparent;
-  border: 0;
-  font-size: 100%;
-  word-break: normal;
-  white-space: pre;
-  background: transparent;
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
 }
 
 blockquote {
-  font-size: 1.25rem;
-  font-style: italic;
-  margin-left: 0;
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-left: 0;
 }
 
 hr {
-  overflow: hidden;
-  background: transparent;
-  margin: 1.5rem 0;
-  padding: 0;
+    overflow: hidden;
+    background: transparent;
+    margin: var(--space-3) 0;
+    padding: 0;
 }
 
 table {
-  display: block;
-  overflow: auto;
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin-bottom: var(--space-1);
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: var(--space-2);
 }
 
 thead {
-  font-weight: 700
+    font-weight: var(--bold);
 }
 
 fieldset, input, select, textarea {
-  font-family:  inherit;
-  font-size:    1rem;
-  box-sizing:   border-box;
-  margin-top:   0;
-  margin-bottom: 0;
+    font-family: inherit;
+    font-size: var(--field);
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 legend {
-  font-size: var(--h3);
-  font-weight: 700;
-  line-height: 1.25;
-  padding: 0;
-  margin-bottom: 1rem;
+    font-size: var(--legend);
+    font-weight: var(--bold);
+    line-height: 1.25;
+    padding: 0;
+    margin-bottom: var(--space-2);
 }
 
 label {
-  font-size: 0.875rem;
-  font-weight: 700;
-  vertical-align: middle;
+    font-size: var(--label);
+    font-weight: var(--bold);
+    vertical-align: middle;
 }
 
 input[type=date],
@@ -166,27 +168,27 @@ input[type=text],
 input[type=time],
 input[type=url],
 input[type=week] {
-  height: 2.25rem;
-  padding: 0.5rem;
-  vertical-align: middle;
-  -webkit-appearance: none;
+    height: 2.25rem;
+    padding: var(--space-1);
+    vertical-align: middle;
+    -webkit-appearance: none;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-  margin: 0;
-  margin-right: 0.5rem;
+    margin: 0;
+    margin-right: var(--space-1);
 }
 
 select {
-  height: 2.25rem;
-  padding: 0.5rem;
-  vertical-align: middle;
+    height: 2.25rem;
+    padding: var(--space-1);
+    vertical-align: middle;
 }
 
 textarea {
-  -webkit-appearance: none;
-  padding: 0.5rem;
+    -webkit-appearance: none;
+    padding: var(--space-1);
 }
 
 input[type=date],
@@ -204,49 +206,41 @@ input[type=url],
 input[type=week],
 select,
 textarea {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+    margin-top: var(--space-1);
+    margin-bottom: var(--space-1);
 }
 
-html {
-  --h1: 2rem;
-  --h2: 1.5rem;
-  --h3: 1.25rem;
-  --h4: 1rem;
-  --h5: .875rem;
-  --h6: .85rem;
-  --space-1: 1rem;
-  --space-2: 2rem;
+:root {
+    --h1: 2rem;
+    --h2: 1.5rem;
+    --h3: 1.25rem;
+    --h4: 1rem;
+    --h5: .875rem;
+    --h6: .85rem;
+    --legend: 1.25rem;
+    --label: 0.875rem;
+    --field: 1rem;
+    --bold: 700;
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
 }
 
 @media (min-width: 52em) {
-  h1, .h1 {
-    font-size: 2.625rem;
-    letter-spacing: -0.4px;
-    margin-top: 16px;
-  }
-  h2, .h2 {
-    font-size: 2rem;
-  }
-  h3, .h3 {
-    font-size: 1.5rem;
-  }
-  h4, .h4 {
-    font-size: 1.1875rem;
-  }
-  h5, .h5 {
-    font-size: 1rem;
-  }
-  h6, .h6 {
-    font-size: 0.9375rem;
-  }
-  p {
-    font-size: 1.125rem;
-  }
-  legend {
-    font-size: 1.5rem;
-  }
-  label {
-    font-size: 0.9375rem;
-  }
+    :root {
+        --h1: 2.625rem;
+        --h2: 2rem;
+        --h3: 1.5rem;
+        --h4: 1.1875rem;
+        --h5: 1rem;
+        --h6: 0.9375rem;
+        --p: 1.125rem;
+        --legend: 1.5rem;;
+        --label: 0.9375rem;
+    }
+
+    h1, .h1 {
+        letter-spacing: -0.4px;
+        margin-top: var(--space-2);
+    }
 }
